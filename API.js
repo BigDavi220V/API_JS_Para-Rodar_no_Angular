@@ -26,7 +26,7 @@ const db_vehicles = [
         volumetotal: 85000, // Usado como totalSales
         connected: 72000,
         softwareUpdates: 69000, // Usado como updated
-        img: "/assets/Ranger_Ford.png", // Usando o caminho direto da API
+        img: "http://localhost:3001/assets/Ranger_Ford.png", // Usando o caminho direto da API
         model_name: "Ranger" // Nome usado para a lista de seleção
     },
     {
@@ -35,7 +35,7 @@ const db_vehicles = [
         volumetotal: 15000,
         connected: 14500,
         softwareUpdates: 14000,
-        img: "/assets/ford mustang.avif",
+        img: "http://localhost:3001/assets/ford mustang.avif",
         model_name: "Mustang"
     },
     {
@@ -44,7 +44,7 @@ const db_vehicles = [
         volumetotal: 35000,
         connected: 30000,
         softwareUpdates: 28000,
-        img: "/assets/Territory_Ford.webp",
+        img: "http://localhost:3001/assets/Territory_Ford.webp",
         model_name: "Territory"
     },
     {
@@ -54,7 +54,7 @@ const db_vehicles = [
         volumetotal: 18000,
         connected: 17500,
         softwareUpdates: 16800,
-        img: "/assets/BRONCO.webp", // Usando a imagem correta
+        img: "http://localhost:3001/assets/BRONCO.webp", // Usando a imagem correta
         model_name: "Bronco"
     }
 ];
